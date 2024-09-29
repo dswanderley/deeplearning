@@ -55,7 +55,7 @@ def train(generator: Generator, discriminator: Discriminator, train_loader: Data
     """
 
     best_g_loss = float('inf')  # Initialize the best generator loss with infinity
-    best_generator_path = 'best_generator_dcgan.pth'
+    best_generator_path = './models/dcgan/best_generator_dcgan.pth'
 
     for epoch in range(num_epochs):
         for i, (real_images, _) in enumerate(train_loader):
@@ -98,7 +98,7 @@ def train(generator: Generator, discriminator: Discriminator, train_loader: Data
             print(f"New best generator model saved with loss {best_g_loss:.4f}")
 
     # Save the final generator model
-    torch.save(generator.state_dict(), 'generator_dcgan.pth')
+    torch.save(generator.state_dict(), './models/dcgan/generator_dcgan.pth')
 
 
 if __name__ == "__main__":

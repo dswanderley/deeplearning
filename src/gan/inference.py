@@ -37,7 +37,10 @@ def inference(generator: Generator, latent_size: int, num_samples: int = 16) -> 
     imshow(vutils.make_grid(fake_images.detach().cpu(), nrow=4))  # Ensure the images are on CPU for display
 
 
-def load_model_and_run(generator: Generator, latent_size: int, model_path: str = 'gan/generator.pth', num_samples: int = 16) -> None:
+def load_model_and_run(generator: Generator,
+                       latent_size: int,
+                       model_path: str = './models/gan/generator.pth',
+                       num_samples: int = 16) -> None:
     """
     Loads the trained generator model and runs inference.
 

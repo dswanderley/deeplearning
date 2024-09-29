@@ -1,0 +1,46 @@
+1) GANs
+    - 2014, Generative Adversarial Networks, Ian J. Goodfellow (https://arxiv.org/abs/1406.2661)
+    - Simple GAN generating MMINST
+    - https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html?highlight=dcgan
+
+2) Variational Autoencoders
+    - https://medium.com/@rekalantar/variational-auto-encoder-vae-pytorch-tutorial-dce2d2fe0f5f
+    - https://github.com/Jackson-Kang/Pytorch-VAE-tutorial
+
+
+3) RNN and LSTM
+    - Revisão de RNNs e LSTM
+    - LSTM to generate simple texts
+
+    - Transformers
+    - Estude os transformers, a arquitetura por trás dos LLMs.
+    - Eles revolucionaram o processamento de linguagem natural e se expandiram para outras áreas, como visão computacional
+    - 2017, Attention Is All You Need, Ashish Vaswani (https://arxiv.org/abs/1706.03762)
+
+
+4) LLMs (Large Language Models)
+    - Pre-training and fine-tunning
+    - Fine-tunning -> treino para tarefas específicas
+    - Grande corpora de dados
+    - GPT, BERT, T4
+    - Hugging face para modelos
+
+    - Implementação
+    - modelos GPT ou BERT pré treinados para natural language processing (NLP) - geração e classificação
+    - Propor ajustos
+
+
+5) Aplicações práticas e estudos de classificação
+    - Redes generativas em Visão computacional
+    - Aplique GANs e VAEs em datasets visuais, como CIFAR-10 ou ImageNet, para gerar imagens ou fazer super-resolução.
+
+    - LLMs para análise de texto
+    - LMs para responder perguntas, gerar código, ou melhorar a análise de texto.
+
+
+5) Estudos avançados
+    - Diffiion Networks
+    - redes generativas para geração de imagens de alta qualidade
+    - Stable diffion ou DALL-e
+
+    - Modelos multimodais: CLIP ou DALL-E
